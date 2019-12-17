@@ -15,11 +15,11 @@ h6 {
 }
 
 // Set your colors
-$primary: #A8D06E;
+$primary: #fafafa;
 $dark-blue: #202222;
 $primary-invert: findColorInvert($primary);
 $secondary: #ffe03b;
-$link: #E7FEFE;
+$link: #152042;
 $link-invert: findColorInvert($link);
 $light: #f2f2f2;
 $twitter: #4099ff;
@@ -82,6 +82,6 @@ $colors: (
   ),
   "transparent": (
     $transparent,
-    $secondary
+    $primary
   )
 );

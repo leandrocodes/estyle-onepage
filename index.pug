@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-html(lang="pt-br")
+html.has-navbar-fixed-top(lang="pt-br")
   head
     meta(charset="UTF-8")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
@@ -7,5 +7,37 @@ html(lang="pt-br")
     link(rel="stylesheet", href="style/main.css")
     title eStyle
   body
-    button.button.is-link.has-text-weight-bold leandro viana
-    h1.is-size-1.has-text-light Leandro Viana
+    nav.navbar.is-fixed-top(role='navigation' aria-label='main navigation')
+      .navbar-brand
+        a.navbar-item(href='/')
+          h1.is-size-3 eStyle
+        a.navbar-burger.burger(role='button' aria-label='menu' aria-expanded='false' data-target='navbarBasicExample')
+          span(aria-hidden='true')
+          span(aria-hidden='true')
+          span(aria-hidden='true')
+      #navbarBasicExample.navbar-menu
+        .navbar-start
+          a.navbar-item
+            | Home
+          a.navbar-item
+            | Sobre
+          .navbar-item.has-dropdown.is-hoverable
+            a.navbar-link
+              | Mais
+            .navbar-dropdown
+              a.navbar-item
+                | Link 1
+              a.navbar-item
+                | Link 2
+              a.navbar-item
+                | Link 3
+              hr.navbar-divider
+              a.navbar-item
+                | Link separado
+        .navbar-end
+          .navbar-item
+            .buttons
+              a.button.is-link
+                strong Sign up
+              a.button.is-light
+                | Log in
