@@ -1,0 +1,10 @@
+@import "../node_modules/bulma/sass/utilities/_all";
+
+@import "abstract/variables";
+
+html, body{
+  background: $dark-blue;
+  height: 100%;
+}
+
+@import "../node_modules/bulma/bulma.sass"
