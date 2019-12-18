@@ -1,6 +1,7 @@
 @import "../node_modules/bulma/sass/utilities/_all";
 
 @import "abstract/variables";
+@import "components/all";
 
 html, body{
   background: $dark-blue;
