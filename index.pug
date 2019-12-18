@@ -10,7 +10,7 @@ html.has-navbar-fixed-top(lang="pt-br")
     nav.navbar.is-fixed-top(role='navigation' aria-label='main navigation')
       .navbar-brand
         a.navbar-item(href='/')
-          h1.is-size-3 eStyle
+          h1.is-size-3-desktop.is-size-4-mobile eStyle
         a.navbar-burger.burger(role='button' aria-label='menu' aria-expanded='false' data-target='navbarBasicExample')
           span(aria-hidden='true')
           span(aria-hidden='true')
@@ -43,4 +43,30 @@ html.has-navbar-fixed-top(lang="pt-br")
               a.button.is-link.is-inverted
                 i.fas.fa-sign-in-alt(style="margin-right: 5px;")
                 strong Login
+    section.hero
+      .hero-body
+        h1.is-size-2.has-text-light.has-text-weight-medium.has-text-centered A eStyle é confiável
+        .container
+          .columns(style="padding: 1em")
+            .column.is-6
+              img(src="https://source.unsplash.com/random/700x500" style="border: 1px solid transparent; border-radius: .5em;")
+            .column.is-6
+                p.has-text-justified.has-text-light.is-size-5 Há pouco mais de 4 meses lançávamos a primeira versão de nosso
+                  | site. Eram poucos produtos, poucas pessoas acessando, mas uma
+                  | vontade gigantesca de entregar o melhor e mais eficiente site de
+                  | comércio eletrônico do Brasil.
+                  | De lá para cá muitos passos foram dados. Já foram mais de 10 mil
+                  | itens vendidos desde o lançamento em agosto. E se lá no
+                  | comecinho a gente tinha cerca de 20 itens vendidos por dia, em
+                  | dezembro temos recebido algo em torno de 200 pedidos por dia, e
+                  | esse número não para de crescer. =D
+                  br
+                  br
+                  | Mas a verdade é que ainda somos muito novos, e muita gente
+                  | ainda não nos conhece. Logo, é normal se perguntar se a eStyle é
+                  | confiável. Para te ajudar a mostrar que sim, que a eStyle é um site
+                  | que você pode confiar, separamos algumas informações
+                  | relevantes.
+          
     script(src='https://kit.fontawesome.com/808aea121f.js' crossorigin='anonymous')
+    script(src='scripts/navbarToggle.js' crossorigin='anonymous')
