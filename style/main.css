@@ -253,11 +253,12 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Work Sans", serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 html, body {
-  background: #202222;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#202222), color-stop(#1f2e32), color-stop(#203a48), color-stop(#2b445e), to(#454b72));
+  background-image: linear-gradient(to right bottom, #202222, #1f2e32, #203a48, #2b445e, #454b72);
   height: 100%;
 }
 
